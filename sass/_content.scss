@@ -7,8 +7,9 @@
 		h2 {
 			display: inline-block;
 			font-size: 28px;
-			border-bottom: 1px solid $cFlatRed;
-			padding-right: 10px;
+			font-weight: 400;
+			border-bottom: 2px solid $cFlatRed;
+			padding: 0 20px 5px 0;
 		}
 	}
 
@@ -43,6 +44,8 @@
 	h3 {
 		margin-top: 0;
 		margin-bottom: 15px;
+
+		font-weight: 400;
 	}
 
 	.uitleg {
