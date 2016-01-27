@@ -11,13 +11,23 @@
 		}, 	500);
 	});
 
+	// scrolling to hoofdstuk on mobile
+	$('#select-hoofdstuk').on('change', function (e) {
+		var hoofdstuk = $(this).val();
+
+		$('html, body').animate({
+			scrollTop: $(hoofdstuk).offset().top
+		}, 	500);
+	})
+
 
 
 	// masonry for links
 	$('.grid').masonry({
 		// options
 		itemSelector: '.grid-item',
-		columnWidth: 500
+		columnWidth: '.grid-sizer',
+		percentPosition: true
 	});
 
 

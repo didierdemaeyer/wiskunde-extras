@@ -20,8 +20,8 @@ header {
 
 	h1 {
 		display: block;
-		width: 30%;
-		margin: 30px auto 40px;
+		width: 300px;
+		margin: 40px auto 40px;
 
 		text-align: center;
 		color: $cWhite;
@@ -33,7 +33,7 @@ header {
 	.third-column {
 		float: left;
 		display: block;
-		width: 320px;
+		width: 32%;
 		margin: 0 auto;
 	}
 
@@ -59,7 +59,37 @@ header {
 
 	.first-column,
 	.second-column {
-		margin-right: 20px;
+		margin-right: 2%;
+	}
+
+
+	#select-hoofdstuk {
+		display: none;
+		width: 300px;
+		margin: 0 auto;
+		padding: 5px 10px;
+
+		background-color: $cWhite;
+	}
+}
+
+@media screen and (max-width: $M)  {
+
+	header {
+		
+		h1 {
+			max-width: 300px;
+		}
+
+		.first-column,
+		.second-column,
+		.third-column {
+			display: none;
+		}
+
+		#select-hoofdstuk {
+			display: block;
+		}
 	}
 
 }

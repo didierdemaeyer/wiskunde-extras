@@ -13,6 +13,7 @@
 		}
 	}
 
+	.grid-sizer,
 	.grid-item {
 		float: left;
 		display: block;
@@ -50,5 +51,30 @@
 
 	.uitleg {
 		margin: 0;
+	}
+}
+
+@media screen and (max-width: $M) {
+	.content {
+
+		section {
+			h2 {
+				font-size: 24px;
+				padding-right: 10px;
+			}
+		}
+
+		.grid-sizer,
+		.grid-item {
+			width: 100%;
+		}
+
+		.link	{
+			padding: 10px 5px;
+
+			&:hover {
+				border: 1px solid $cWhite;
+			}
+		}
 	}
 }

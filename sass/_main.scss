@@ -7,6 +7,7 @@ html, body {
 
 .container {
 	display: block;
-	width: 1000px;
 	margin: 0 auto;
+	max-width: 1000px;
+	padding: 0 10px;
 }
