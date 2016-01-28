@@ -251,33 +251,11 @@
 					<div class="grid-sizer"></div>
 
 					<div class="grid-item">
-						<a class="link" href="www.mathopenref.com/quadraticexplorer" target="_blank">
-							<h3>Quadratic Function Explorer</h3>
-							<p class="uitleg">an aplet with sliders to explore what a quadratic function looks like with different parameters</p>
+						<a class="link" href="TEST" target="_blank">
+							<h3>TEST</h3>
+							<p class="uitleg">TEST</p>
 						</a>
 					</div>
-					<div class="grid-item">
-						<a class="link" href="www.softschools.com/math/algera/quadratic_functions/quadratic_function_standard_form" target="_blank">
-							<h3>quadratic function - standard Form</h3>
-							<p class="uitleg">an applet that shows you what a quadratic functon looks like (in the standard form) with different parameters</p>
-						</a>
-					</div>
-
-					<div class="grid-item">
-						<a class="www.softschools.com/math/algebra/quadratic_functon/quadratic_function_vertex_form" href="TEST" target="_blank">
-							<h3>quadratic function - vertex form</h3>
-							<p class="uitleg">an applet that shows you what a quadrtic function looks like (in the vertex form) with different parameters</p>
-						</a>
-					</div>
-
-					
-					<div class="grid-item">
-						<a class="www.softschools.com/math/algebra/quadratic_functions/solving_quadratic_roots_worksheets" href="TEST" target="_blank">
-							<h3>worksheets</h3>
-							<p class="uitleg">different exercises in which you can perfect your matematical skills</p>
-						</a>
-					</div>
-
 
 				</div>
 			</section>
@@ -427,5 +405,3 @@
 </body>
 
 </html>
-
-
